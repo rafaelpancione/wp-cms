@@ -116,6 +116,7 @@ margin: 10px auto 10px;
 	text-align: center;
 	color: #fff;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .sobre h1{
@@ -127,6 +128,7 @@ margin: 10px auto 10px;
 	text-align: center;
 	color: #fff;
 	margin-top: 20px;
+	margin-bottom: 74px;
 }
 
 .contato img{
@@ -135,6 +137,19 @@ margin: 10px auto 10px;
 
 .contato h1{
 	padding-bottom: 20px;
+}
+
+.lista-contato{
+	padding-top: 20px;
+}
+
+.lista-contato li p{
+	line-height: 20px;
+	padding: 5px;
+}
+
+.lista-contato li h2{
+	color: #c84b4f;
 }
 
 .contato h1:after{
