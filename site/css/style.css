@@ -121,3 +121,28 @@ margin: 10px auto 10px;
 .sobre h1{
 	padding-bottom: 20px;
 }
+
+.contato{
+	background: url("../img/bg.png") repeat;
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.contato img{
+	height: 200px;
+}
+
+.contato h1{
+	padding-bottom: 20px;
+}
+
+.contato h1:after{
+	content: "";
+	display: block;
+	width: 440px;
+	height: 1px;
+	background: #c84b4f;
+	margin: 10px auto;
+}
+
