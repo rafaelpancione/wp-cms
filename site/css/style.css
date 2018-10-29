@@ -103,3 +103,21 @@ margin: 10px auto 10px;
 	background: #c84b4f;
 	padding: 20px;
 }
+
+.img-sobre{
+	height: 480px;
+	background: url("../img/img-sobre.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;	
+}
+
+.sobre{
+	background: url("../img/bg.png") repeat;
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.sobre h1{
+	padding-bottom: 20px;
+}
