@@ -1,3 +1,12 @@
+/*
+Theme Name: Lets Go Pizzas
+Theme URI: https://letsgo.com.br
+Author: Rafael Pancione
+Author URI: https://rafaelpancione.github.io
+Description: Tema criado para a pizzaria itinerante Lets Go.
+Version: 1.0
+*/
+
 /*geral*/
 @import url('https://fonts.googleapis.com/css?family=Francois+One');
 
@@ -36,7 +45,7 @@ img{
  .header{
  	width: 960px;
 	height: 380px;
-	background: url("../img/banner-lets.jpg") no-repeat center;
+	background: url("./img/banner-lets.jpg") no-repeat center;
 	background-size: cover;
 	margin: 0 auto;
 	max-width: 100%;
@@ -44,7 +53,7 @@ img{
  }
 
 .main{
-	background: url("../img/bg.png") repeat;
+	background: url("./img/bg.png") repeat;
 	text-align: center;
 	color: #fff;
 	max-width: 100%;
@@ -110,7 +119,7 @@ margin: 10px auto 10px;
 
 
 .sobre{
-	background: url("../img/bg.png") repeat;
+	background: url("./img/bg.png") repeat;
 	text-align: center;
 	color: #fff;
 	margin-top: 20px;
@@ -124,7 +133,7 @@ margin: 10px auto 10px;
 }
 
 .contato{
-	background: url("../img/bg.png") repeat;
+	background: url("./img/bg.png") repeat;
 	text-align: center;
 	color: #fff;
 	margin-top: 20px;
