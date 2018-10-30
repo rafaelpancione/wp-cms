@@ -6,12 +6,16 @@ body{
 	background-color: #000;
 }
 
+img{
+	max-width: 100%;
+	display: block;
+}
+
 /*Header*/
 
 .menu ul li{ /*lista menu na horizonal*/
  	display: inline-block;
  	margin: 20px 30px;
-
  }
 
 .menu ul li a{ 
@@ -30,17 +34,21 @@ body{
  }
 
  .header{
- 	width: 1000px;
+ 	width: 960px;
 	height: 380px;
 	background: url("../img/banner-lets.jpg") no-repeat center;
 	background-size: cover;
 	margin: 0 auto;
+	max-width: 100%;
+	display: block;
  }
 
 .main{
 	background: url("../img/bg.png") repeat;
 	text-align: center;
 	color: #fff;
+	max-width: 100%;
+	display: block;
 	/**/
 }
  h1{
@@ -91,32 +99,24 @@ background: #c84b4f;
 margin: 10px auto 10px;
 }
 
-.lista-pizza li{
-	padding: 5px;
-}
-
 .footer{
 	width: 100%;
 	color: #000;
 	font-weight: bold;
 	text-align: center;
 	background: #c84b4f;
-	padding: 20px;
+	padding: 20px 0;
 }
 
-.img-sobre{
-	height: 480px;
-	background: url("../img/img-sobre.jpg") no-repeat center;
-	background-size: cover;
-	text-align: center;	
-}
 
 .sobre{
 	background: url("../img/bg.png") repeat;
 	text-align: center;
 	color: #fff;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 20px;	
+	max-width: 100%;
+	display: block;
 }
 
 .sobre h1{
@@ -129,10 +129,8 @@ margin: 10px auto 10px;
 	color: #fff;
 	margin-top: 20px;
 	margin-bottom: 74px;
-}
-
-.contato img{
-	height: 200px;
+	max-width: 100%;
+	display: block;
 }
 
 .contato h1{
@@ -161,3 +159,75 @@ margin: 10px auto 10px;
 	margin: 10px auto;
 }
 
+/*responsivo*/
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+.main h1:after, .main h1:before {
+content: "";
+display: block;
+width: 600px;
+height: 1px;
+background: #1d1d1d;
+}
+ .main p:after{
+ 	content: "";
+	display: block;
+	width: 300px;
+	height: 1px;
+	background: #1d1d1d;	
+ }
+
+.main h2:after, .main h2:before {
+content: "";
+display: block;
+width: 300px;
+height: 1px;
+background: #c84b4f;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+.main h1:after, .main h1:before {
+content: "";
+display: block;
+width: 300px;
+height: 1px;
+background: #1d1d1d;
+margin: 10px auto 10px;
+}
+ .main p:after{
+ 	content: "";
+	display: block;
+	width: 300px;
+	height: 1px;
+	background: #1d1d1d;
+	margin: 10px auto 10px;
+ }
+
+.main h2:after, .main h2:before {
+content: "";
+display: block;
+width: 300px;
+height: 1px;
+background: #c84b4f;
+margin: 10px auto 10px;
+}
+
+.menu ul li{ /*lista menu na horizonal*/
+ 	display: inline-block;
+ 	margin: 20px 20px;
+ }
+.contato h1:after{
+	content: "";
+	display: block;
+	width: 300px;
+	height: 1px;
+	background: #c84b4f;
+	margin: 10px auto;
+}
+
+
+}
