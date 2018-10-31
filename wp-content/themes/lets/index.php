@@ -3,9 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<link rel="stylesheet" href="style.css">
-
-	
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();  ?>/style.css">	
 
 	<title>Let´s Go Pizzas</title>
 </head> 
