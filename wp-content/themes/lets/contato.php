@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-
-	<title>Let´s Go Pizzas</title>
-</head> 
-<body>
-
-	<header class="header">
-		<div class="container">
-			<nav class="grid-16 menu">
-				<ul>
-					<li><a href="index.html">Início</a></li>
-					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="contato.html">Contato</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+<?php get_header(); ?>
 
 	<section class="contato">
 		<div class="container">
@@ -44,11 +24,4 @@
 		</div>
 	</section>
 
-	<footer class="footer">
-		<div class="container">
-		<p>Let´s Go Pizzas, 2018.</p>
-		</div>
-	</footer>
-
-</body>
-</html>
+ <?php get_footer(); ?>

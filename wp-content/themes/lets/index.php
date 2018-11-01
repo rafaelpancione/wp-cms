@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="utf-8">
-
-	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();  ?>/style.css">	
-
-	<title>Let´s Go Pizzas</title>
-</head> 
-<body>
-
-	<header class="header">
-		<div class="container">
-			<nav class="grid-16 menu">
-				<ul>
-					<li><a href="index.html">Início</a></li>
-					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="contato.html">Contato</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-
-
+<?php get_header(); ?>
 
 	<section class="main">
 		<div class="container">
@@ -95,12 +72,5 @@ Portuguesa</h3><p>Mussarela, presunto, ovo de codorna, azeitona preta, cebola e 
 		</div>
 	</section>
 
+<?php get_footer(); ?>
 
-	<footer class="footer container">
-		<div class="container">
-		<p>Let´s Go Pizzas, 2018.</p>
-		</div>
-	</footer>
-
-</body>
-</html>
