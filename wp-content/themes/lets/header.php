@@ -15,9 +15,9 @@
 		<div class="container">
 			<nav class="grid-16 menu">
 				<ul>
-					<li><a href="index.php">Menu</a></li>
-					<li><a href="sobre.php">Sobre</a></li>
-					<li><a href="contato.php">Contato</a></li>
+					<li><a href="/">Menu</a></li>
+					<li><a href="/sobre/">Sobre</a></li>
+					<li><a href="/contato/">Contato</a></li>
 				</ul>
 			</nav>
 		</div>

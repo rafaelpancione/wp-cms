@@ -1,8 +1,12 @@
-<?php get_header(); ?>
+<?php 
+// Template Name: Contato
+?>
 
+<?php get_header(); ?>
+	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<section class="contato">
 		<div class="container">
-		<h1>Contato</h1>
+		<h1><?php the_title(); ?></h1>
 		<img src="img/map.png" class="img-contato">
 		
 
@@ -23,5 +27,8 @@
 		</div>
 		</div>
 	</section>
+
+	<?php endwhile; else: endif; ?>
+	
 
  <?php get_footer(); ?>
