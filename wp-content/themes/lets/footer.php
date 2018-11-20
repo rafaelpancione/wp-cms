@@ -1,10 +1,11 @@
 
 	<footer class="footer container">
 		<div class="container">
-		<p>Let´s Go Pizzas, 2018.</p>
+		<p><?php bloginfo('name'); ?>, <?php echo date("Y"); ?>.</p>
 		</div>
 	</footer>
 	<!-- footer wp -->
 	<?php wp_footer(); ?>
 </body>
 </html>
+

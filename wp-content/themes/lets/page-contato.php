@@ -7,8 +7,9 @@
 	<section class="contato">
 		<div class="container">
 		<h1><?php the_title(); ?></h1>
-		<img src="img/map.png" class="img-contato">
+		<img src="<?php the_field('imagem_contato'); ?>">
 		
+
 
 		<div class="lista-contato">
 			<ul class="dados grid-1-3">
